@@ -1,0 +1,242 @@
+ html{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+ ul{
+     list-style: none;
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+
+
+
+
+/* Navigation setup */
+ nav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     overflow: hidden;
+     background-color: black;
+     width: 100vw;
+     height: 90px;
+     background-color: none;
+ }
+ .navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+ }
+ .logo{
+     width: 50px;
+ }
+ .navInput{
+    border: ;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    height: 25px;
+    margin: 0 20px 0 20px;
+ }
+ .navLinks ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+ .navLinks ul li a{
+     color: white;
+ }
+ .menuIcon{
+     margin-right: 30px;
+     width: 25px;
+ }
+
+ /* Tap setup */
+tab{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    height: 110px;
+    border-bottom: 1px solid lightgray;
+}
+tab ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 20vw;
+    height: 110px;
+}
+tab ul li p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* page wrapper */
+.contentWrapper{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
+}
+
+/* Aside content */
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    z-index: 1;
+    margin-top: -50px;
+}
+.username{
+    font-size: 25px;
+}
+aside img{
+    border-radius: 50%;
+    width: 300px;
+}
+.editPro{
+    width: 100%;
+    height: 30px;
+}
+.follows{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+.follows ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.follows ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.follows ul li span{
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+
+/* main content */
+main{
+    width: 60%;
+    padding-left:150px;
+}
+/* title headers */
+.mainTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.repoContent ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.repoContent ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 100px;
+    margin: 10px;
+    padding: 0 0 10px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.repoContent ul li .repoName{
+    font-size: 16px;
+    color: darkblue;
+}
+.repoWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.repoWrapper span{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 5px;
+}
+.repoWrapper p{
+    font-size:12px;
+}
+
+
+/* activity section */
+
+.contribBox{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 180px;
+    width: 100%;
+}
+
+/* footer setup */
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: none;
+    width: 100vw;
+    height: 90px;
+    
+    background-color: none;
+}
+footer ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-top: 1px solid grey;
+    width: 60%;
+    padding: 20px;
+}
+footer ul li a{
+    color: #4d57e8;
+}
+.copywrite{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
